@@ -1,4 +1,4 @@
-# Enhanced CNN Character Recognition
+# Handwritten Character Recognition 
 
 This project implements an **Enhanced Convolutional Neural Network (CNN)** for recognizing **handwritten digits (0–9)** and **uppercase letters (A–Z)**.  
 It combines the MNIST dataset for digits with synthetically generated letter patterns, enhanced through data augmentation techniques such as rotation, scaling, noise addition, and dilation.  
@@ -49,7 +49,7 @@ It combines the MNIST dataset for digits with synthetically generated letter pat
 
 - 3 → Exit
 
-Training
+# Training
 
 - Trains on MNIST + synthetic letters
 
@@ -59,7 +59,7 @@ Training
   enhanced_digits_letters_cnn_model.h5
   enhanced_digits_letters_cnn_model_config.npy
 
-Testing
+# Testing
 
 - Loads the saved model
 
