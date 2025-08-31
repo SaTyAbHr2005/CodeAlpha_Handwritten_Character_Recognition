@@ -33,13 +33,11 @@ It combines the MNIST dataset for digits with synthetically generated letter pat
 
 2. Install dependencies:
    ```bash
-   pip install tensorflow numpy matplotlib opencv-python pillow
-
+   pip install -r requirements.txt
 
 3. Run the script:
    ```bash
    python task3.py
-
 
 4. Choose an option:
 
