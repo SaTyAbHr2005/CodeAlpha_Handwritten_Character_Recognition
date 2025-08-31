@@ -37,61 +37,62 @@ It combines the MNIST dataset for digits with synthetically generated letter pat
 
 
 3. Run the script:
+   ```bash
+   python task3.py
 
-python task3.py
 
+4. Choose an option:
 
-Choose an option:
+- 1 → Train a new model
 
-1 → Train a new model
+- 2 → Test an existing model with custom images
 
-2 → Test an existing model with custom images
-
-3 → Exit
+- 3 → Exit
 
 Training
 
-Trains on MNIST + synthetic letters
+- Trains on MNIST + synthetic letters
 
-Saves the model as:
+- Saves the model as:
 
-enhanced_digits_letters_cnn_model.h5
-enhanced_digits_letters_cnn_model_config.npy
+  ```bash
+  enhanced_digits_letters_cnn_model.h5
+  enhanced_digits_letters_cnn_model_config.npy
 
 Testing
 
-Loads the saved model
+- Loads the saved model
 
-Prompts for an image path
+- Prompts for an image path
 
-Predicts top-k character classes with confidence scores
+- Predicts top-k character classes with confidence scores
 
-Displays:
+- Displays:
 
-Original image
+   - Original image
 
-Processed input (28x28)
+   - Processed input (28x28)
 
-Prediction results with probabilities
+   - Prediction results with probabilities
 
-📊 Example Output
+## 📊 Example Output
 
-Classification accuracy on test set
+- Classification accuracy on test set
 
-Prediction window showing:
+- Prediction window showing:
 
-Original vs preprocessed image
+   - Original vs preprocessed image
 
-Predicted character with confidence
+   - Predicted character with confidence
 
-Top-5 predictions
+   - Top-5 predictions
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
-Train with EMNIST dataset for more realistic letter samples
+- Train with EMNIST dataset for more realistic letter samples
 
-Add lowercase characters
+- Add lowercase characters
 
-Support cursive/handwritten styles
+- Support cursive/handwritten styles
 
-Deploy with a simple web app (Flask/Streamlit)
+- Deploy with a simple web app (Flask/Streamlit)
