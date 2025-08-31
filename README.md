@@ -49,7 +49,7 @@ It combines the MNIST dataset for digits with synthetically generated letter pat
 
 - 3 → Exit
 
-# Training
+**Training**
 
 - Trains on MNIST + synthetic letters
 
@@ -59,7 +59,7 @@ It combines the MNIST dataset for digits with synthetically generated letter pat
   enhanced_digits_letters_cnn_model.h5
   enhanced_digits_letters_cnn_model_config.npy
 
-# Testing
+**Testing**
 
 - Loads the saved model
 
